@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Group.cs" />
+    <Compile Remove="IGroup.cs" />
+    <Compile Remove="IMatch.cs" />
+    <Compile Remove="ITeam.cs" />
+    <Compile Remove="ITournament.cs" />
+    <Compile Remove="Match.cs" />
+    <Compile Remove="Team.cs" />
+    <Compile Remove="Tournament.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasketGeneratorBL\BasketGeneratorBLL.csproj" />
+    <ProjectReference Include="..\BasketGeneratorDAL\BasketGeneratorDAL.csproj" />
+  </ItemGroup>
+
+</Project>
