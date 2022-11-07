@@ -1,2 +1,2 @@
-# amused-group
-Test application developed for Amused Group practical test
+# bracket game
+Simple game to select a winner based on set of input brackets
